@@ -1,0 +1,10 @@
+export 'package:ecommerce/data/product/repository/product_repository_impl.dart';
+export 'package:ecommerce/data/product/source/product_firebase_service.dart';
+export 'package:ecommerce/domain/product/repository/product_repository.dart';
+export 'package:ecommerce/domain/product/use-cases/add_or_remove_fav_products.dart';
+export 'package:ecommerce/domain/product/use-cases/get_favorite_products.dart';
+export 'package:ecommerce/domain/product/use-cases/get_new_in.dart';
+export 'package:ecommerce/domain/product/use-cases/get_products_by_category_id.dart';
+export 'package:ecommerce/domain/product/use-cases/get_products_by_title.dart';
+export 'package:ecommerce/domain/product/use-cases/get_top_selling.dart';
+export 'package:ecommerce/domain/product/use-cases/is_favorite.dart';
